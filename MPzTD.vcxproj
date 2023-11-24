@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>MPzTD</ProjectName>
+    <ProjectGuid>{18F035BF-FC35-4D04-A6D7-694EC840BDB9}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>MPztd_V2.2.7(Debug)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
+    <GenerateManifest>false</GenerateManifest>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+    <TargetName>MPztd_V2.2.7</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;TARGET_NAME=$(TargetName);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>LIB\setupapi.lib;LIB\hid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <AddModuleNamesToAssembly>
+      </AddModuleNamesToAssembly>
+      <EmbedManagedResourceFile>
+      </EmbedManagedResourceFile>
+      <ForceSymbolReferences>__DllMainCRTStartup@12</ForceSymbolReferences>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+      <AssemblyLinkResource>
+      </AssemblyLinkResource>
+      <AdditionalOptions>/safeseh:no %(AdditionalOptions)</AdditionalOptions>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <StackReserveSize>10000000</StackReserveSize>
+      <HeapReserveSize>20000000</HeapReserveSize>
+      <HeapCommitSize>20000000</HeapCommitSize>
+      <StackCommitSize>10000000</StackCommitSize>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <ForceFileOutput>Enabled</ForceFileOutput>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Manifest>
+      <EnableDpiAwareness>true</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TARGET_NAME=$(TargetName);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <StackReserveSize>10000000</StackReserveSize>
+      <StackCommitSize>10000000</StackCommitSize>
+      <HeapReserveSize>20000000</HeapReserveSize>
+      <HeapCommitSize>20000000</HeapCommitSize>
+      <AdditionalDependencies>LIB\setupapi.lib;LIB\hid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Manifest>
+      <VerboseOutput>false</VerboseOutput>
+      <EnableDpiAwareness>true</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AfeMultiSettingDlg.cpp" />
+    <ClCompile Include="AfeNoiseSettingDlg.cpp" />
+    <ClCompile Include="AfeSettingDlg.cpp" />
+    <ClCompile Include="ASIC_ID_dlg.cpp" />
+    <ClCompile Include="BarcodeSettingDlg.cpp" />
+    <ClCompile Include="ConnectInfoDlg.cpp" />
+    <ClCompile Include="CurrentIdleOptionDlg.cpp" />
+    <ClCompile Include="CustomUI\ColorListCtrl.cpp" />
+    <ClCompile Include="CustomUI\CustomButton\BtnST.cpp" />
+    <ClCompile Include="CustomUI\CustomButton\CeXDib.cpp" />
+    <ClCompile Include="CustomUI\CustomButton\ShadeButtonST.cpp" />
+    <ClCompile Include="CustomUI\DimTabCtrl.cpp" />
+    <ClCompile Include="CustomUI\FontSize.cpp" />
+    <ClCompile Include="CustomUI\HeaderCtrlEx.cpp" />
+    <ClCompile Include="CustomUI\LinePlot.cpp" />
+    <ClCompile Include="CustomUI\ListCtrlEx.cpp" />
+    <ClCompile Include="CustomUI\ResizableDialog.cpp" />
+    <ClCompile Include="CustomUI\RichEditEx.cpp" />
+    <ClCompile Include="CustomUI\StatusBarView.cpp" />
+    <ClCompile Include="CustomUI\Title.cpp" />
+    <ClCompile Include="CustomUI\XColorStatic.cpp" />
+    <ClCompile Include="TestResultDescDlg.cpp" />
+    <ClCompile Include="file_unlocker.cpp" />
+    <ClCompile Include="GpioButtonDlg.cpp" />
+    <ClCompile Include="Hid\UsbHidList.cpp" />
+    <ClCompile Include="popup_noti.cpp" />
+    <ClCompile Include="ScrollDlg.cpp" />
+    <ClCompile Include="ScrollHelper.cpp" />
+    <ClCompile Include="StartupPasswordDlg.cpp" />
+    <ClCompile Include="TestModeView_Test.cpp" />
+    <ClCompile Include="TestModeView_TestInfo.cpp" />
+    <ClCompile Include="TestOptionDlg_Tab0.cpp" />
+    <ClCompile Include="Global.cpp" />
+    <ClCompile Include="Hid\UsbHid.cpp" />
+    <ClCompile Include="InputDlg.cpp" />
+    <ClCompile Include="TestModeDiffSpecDlg.cpp" />
+    <ClCompile Include="TestModeView.cpp" />
+    <ClCompile Include="TestOptionDlg.cpp" />
+    <ClCompile Include="TestOptionDlg_Tab1.cpp" />
+    <ClCompile Include="TestOptionDlg_Tab2.cpp" />
+    <ClCompile Include="TouchButtonDlg.cpp" />
+    <ClCompile Include="TouchDebugger.cpp" />
+    <ClCompile Include="TouchDebuggerDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Trace\HTrace.cpp" />
+    <ClCompile Include="TsmTestThread.cpp" />
+    <ClCompile Include="UserNumberDlg.cpp" />
+    <ClCompile Include="util.cpp" />
+    <ClCompile Include="ZDataAnalyzerDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AfeMultiSettingDlg.h" />
+    <ClInclude Include="AfeNoiseSettingDlg.h" />
+    <ClInclude Include="AfeSettingDlg.h" />
+    <ClInclude Include="ASIC_ID_dlg.h" />
+    <ClInclude Include="BarcodeSettingDlg.h" />
+    <ClInclude Include="ConnectInfoDlg.h" />
+    <ClInclude Include="CurrentIdleOptionDlg.h" />
+    <ClInclude Include="CustomUI\ColorListCtrl.h" />
+    <ClInclude Include="CustomUI\CustomButton\BtnST.h" />
+    <ClInclude Include="CustomUI\CustomButton\CeXDib.h" />
+    <ClInclude Include="CustomUI\CustomButton\ShadeButtonST.h" />
+    <ClInclude Include="CustomUI\DimTabCtrl.h" />
+    <ClInclude Include="CustomUI\FontSize.h" />
+    <ClInclude Include="CustomUI\HeaderCtrlEx.h" />
+    <ClInclude Include="CustomUI\LinePlot.h" />
+    <ClInclude Include="CustomUI\ListCtrlEx.h" />
+    <ClInclude Include="CustomUI\memdc.h" />
+    <ClInclude Include="CustomUI\ResizableDialog.h" />
+    <ClInclude Include="CustomUI\RichEditEx.h" />
+    <ClInclude Include="CustomUI\StatusBarView.h" />
+    <ClInclude Include="CustomUI\Title.h" />
+    <ClInclude Include="CustomUI\XColorStatic.h" />
+    <ClInclude Include="TestResultDescDlg.h" />
+    <ClInclude Include="GpioButtonDlg.h" />
+    <ClInclude Include="Hid\UsbHidList.h" />
+    <ClInclude Include="popup_noti.h" />
+    <ClInclude Include="ScrollDlg.h" />
+    <ClInclude Include="ScrollHelper.h" />
+    <ClInclude Include="StartupPasswordDlg.h" />
+    <ClInclude Include="TestModeView_Test.h" />
+    <ClInclude Include="TestModeView_TestInfo.h" />
+    <ClInclude Include="TestOptionDlg_Tab0.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="Hid\UsbHid.h" />
+    <ClInclude Include="Hid\Inc\Hid.h" />
+    <ClInclude Include="Hid\Inc\Hidpi++.h" />
+    <ClInclude Include="Hid\Inc\Hidsdi++.h" />
+    <ClInclude Include="Hid\Inc\HIDSDI.H" />
+    <ClInclude Include="Hid\Inc\Hidusage.h" />
+    <ClInclude Include="Hid\Inc\SETUPAPI.H" />
+    <ClInclude Include="Hid\Inc\USB100.H" />
+    <ClInclude Include="InputDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="TestModeDiffSpecDlg.h" />
+    <ClInclude Include="TestModeView.h" />
+    <ClInclude Include="TestOptionDlg.h" />
+    <ClInclude Include="TestOptionDlg_Tab1.h" />
+    <ClInclude Include="TestOptionDlg_Tab2.h" />
+    <ClInclude Include="TouchButtonDlg.h" />
+    <ClInclude Include="TouchDebugger.h" />
+    <ClInclude Include="TouchDebuggerDlg.h" />
+    <ClInclude Include="register.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Trace\HTrace.h" />
+    <ClInclude Include="Trace\Macros.h" />
+    <ClInclude Include="TsmTestThread.h" />
+    <ClInclude Include="UserNumberDlg.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="version.h" />
+    <ClInclude Include="ZDataAnalyzerDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\bitmap3.bmp" />
+    <Image Include="res\bmp00009.bmp" />
+    <Image Include="res\bmp00010.bmp" />
+    <Image Include="res\bmp00011.bmp" />
+    <Image Include="res\bmp00012.bmp" />
+    <Image Include="res\bmp00013.bmp" />
+    <Image Include="res\bmp00014.bmp" />
+    <Image Include="res\bmp00015.bmp" />
+    <Image Include="res\bmp00016.bmp" />
+    <Image Include="res\bmp00017.bmp" />
+    <Image Include="res\bmp00018.bmp" />
+    <Image Include="res\bmp00019.bmp" />
+    <Image Include="res\bmp00020.bmp" />
+    <Image Include="res\bmp00021.bmp" />
+    <Image Include="res\bmpFail.bmp" />
+    <Image Include="res\bmpPass.bmp" />
+    <Image Include="res\bmpStandBy.bmp" />
+    <Image Include="res\bmpTitle.bmp" />
+    <Image Include="res\Button Delete.ico" />
+    <Image Include="res\Button Fast Forward.ico" />
+    <Image Include="res\Button Refresh.ico" />
+    <Image Include="res\buttonclose.ico" />
+    <Image Include="res\CANCEL_gray.ico" />
+    <Image Include="res\detect_o.bmp" />
+    <Image Include="res\Docs Folder.ico" />
+    <Image Include="res\Document.ico" />
+    <Image Include="res\Documents.ico" />
+    <Image Include="res\Downloads Folder.ico" />
+    <Image Include="res\Get Info.ico" />
+    <Image Include="res\LedOff.ico" />
+    <Image Include="res\LedOn.ico" />
+    <Image Include="res\OK.ico" />
+    <Image Include="res\OK_gray.ico" />
+    <Image Include="res\TouchDebugger.ico" />
+    <Image Include="res\background.bmp" />
+    <Image Include="res\background.jpg" />
+    <Image Include="res\bg.jpg" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap_b.bmp" />
+    <Image Include="res\bitmap_f.bmp" />
+    <Image Include="res\bitmap_p.bmp" />
+    <Image Include="res\bitmap_r.bmp" />
+    <Image Include="res\bitmap_s.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\bmp00003.bmp" />
+    <Image Include="res\bmp00004.bmp" />
+    <Image Include="res\bmp00005.bmp" />
+    <Image Include="res\bmp00006.bmp" />
+    <Image Include="res\bmp00007.bmp" />
+    <Image Include="res\bmp00008.bmp" />
+    <Image Include="res\button close.ico" />
+    <Image Include="res\button info.ico" />
+    <Image Include="res\cancel.ico" />
+    <Image Include="res\configure.ico" />
+    <Image Include="res\delete.ico" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon_error.ico" />
+    <Image Include="res\icon_get.ico" />
+    <Image Include="res\icon_item.ico" />
+    <Image Include="res\icon_load.ico" />
+    <Image Include="res\icon_poi.ico" />
+    <Image Include="res\icon_save.ico" />
+    <Image Include="res\icon_set.ico" />
+    <Image Include="res\icon_upgrade.ico" />
+    <Image Include="res\icov_save_eeprom.ico" />
+    <Image Include="res\painter.ico" />
+    <Image Include="res\play.bmp" />
+    <Image Include="res\point.ico" />
+    <Image Include="res\raw.ico" />
+    <Image Include="res\test.ico" />
+    <Image Include="res\Transfere.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\TouchDebugger.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TouchDebugger.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Hand.cur" />
+    <None Include="res\TouchDebugger.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="TouchDebugger.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

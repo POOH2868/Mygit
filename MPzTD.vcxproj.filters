@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{38d34467-57bb-4fab-bbf9-ab939ddd7745}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{aff96e3d-e58a-4559-8857-adbb831cf984}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{a78f5298-31a6-495d-8031-6bbe2387eda1}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Dialog">
+      <UniqueIdentifier>{21f43dfe-d186-476d-96ec-c62624b2eb6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CustomUI">
+      <UniqueIdentifier>{ce83d047-526b-4f5f-83de-c75e2ac97c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CustomUI\CustomButton">
+      <UniqueIdentifier>{45de4273-1252-4ae2-a4b9-2b89a9e1517e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Util">
+      <UniqueIdentifier>{bfa4c3c1-def0-484b-ba27-8fc48cf8c1a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Hid">
+      <UniqueIdentifier>{f0ac01eb-2ab3-4d95-9041-76b6194875c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Hid\INC">
+      <UniqueIdentifier>{0417df2f-29ee-41ef-8446-322de2c2e7ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\CustomUI">
+      <UniqueIdentifier>{313eed0b-c073-4eac-b34f-1fd2c15cba43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Hid">
+      <UniqueIdentifier>{e8761292-ce30-488b-9b5e-b29a925de4e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Dialog">
+      <UniqueIdentifier>{ff2bb530-ec6a-489c-8aca-b4047afea813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\CustomUI\CustomButton">
+      <UniqueIdentifier>{db0bbb48-782f-42d9-8a63-b7335554fbd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Trace">
+      <UniqueIdentifier>{c04db498-ecc4-45b2-8a37-ddf6f83099ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Trace">
+      <UniqueIdentifier>{73aa9ee2-e195-4258-ae92-2bcc1b8b37a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Util">
+      <UniqueIdentifier>{5ecd9f36-9e81-4204-8c0e-e2c8ee93c317}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Global.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TestModeView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TouchDebugger.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TouchDebuggerDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDlg.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TestModeDiffSpecDlg.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TestOptionDlg.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>소스 파일\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Hid\UsbHid.cpp">
+      <Filter>소스 파일\Hid</Filter>
+    </ClCompile>
+    <ClCompile Include="TsmTestThread.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TestOptionDlg_Tab0.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomUI\HeaderCtrlEx.cpp">
+      <Filter>소스 파일\CustomUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomUI\ListCtrlEx.cpp">
+      <Filter>소스 파일\CustomUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomUI\StatusBarView.cpp">
+      <Filter>소스 파일\CustomUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomUI\CustomButton\BtnST.cpp">
+      <Filter>소스 파일\CustomUI\CustomButton</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomUI\CustomButton\CeXDib.cpp">
+      <Filter>소스 파일\CustomUI\CustomButton</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomUI\CustomButton\ShadeButtonST.cpp">
+      <Filter>소스 파일\CustomUI\CustomButton</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomUI\ResizableDialog.cpp">
+      <Filter>소스 파일\CustomUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TestOptionDlg_Tab1.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Hid\UsbHidList.cpp">
+      <Filter>소스 파일\Hid</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectInfoDlg.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomUI\ColorListCtrl.cpp">
+      <Filter>소스 파일\CustomUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomUI\LinePlot.cpp">
+      <Filter>소스 파일\CustomUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ZDataAnalyzerDlg.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Trace\HTrace.cpp">
+      <Filter>소스 파일\Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="ASIC_ID_dlg.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="popup_noti.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollDlg.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollHelper.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomUI\RichEditEx.cpp">
+      <Filter>소스 파일\CustomUI</Filter>
+    </ClCompile>
+    <ClCompile Include="file_unlocker.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GpioButtonDlg.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomUI\XColorStatic.cpp">
+      <Filter>소스 파일\CustomUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomUI\FontSize.cpp">
+      <Filter>소스 파일\CustomUI</Filter>
+    </ClCompile>
+    <ClCompile Include="StartupPasswordDlg.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TestOptionDlg_Tab2.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="UserNumberDlg.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TestModeView_TestInfo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TestModeView_Test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AfeMultiSettingDlg.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="AfeSettingDlg.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrentIdleOptionDlg.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="BarcodeSettingDlg.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomUI\Title.cpp">
+      <Filter>소스 파일\CustomUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TouchButtonDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AfeNoiseSettingDlg.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomUI\DimTabCtrl.cpp">
+      <Filter>소스 파일\CustomUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TestResultDescDlg.cpp">
+      <Filter>소스 파일\Dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TestModeView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TouchDebugger.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TouchDebuggerDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="register.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Hid\Inc\Hid.h">
+      <Filter>헤더 파일\Hid\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="Hid\Inc\Hidpi++.h">
+      <Filter>헤더 파일\Hid\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="Hid\Inc\HIDSDI.H">
+      <Filter>헤더 파일\Hid\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="Hid\Inc\Hidsdi++.h">
+      <Filter>헤더 파일\Hid\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="Hid\Inc\Hidusage.h">
+      <Filter>헤더 파일\Hid\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="Hid\Inc\SETUPAPI.H">
+      <Filter>헤더 파일\Hid\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="Hid\Inc\USB100.H">
+      <Filter>헤더 파일\Hid\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="Hid\UsbHid.h">
+      <Filter>헤더 파일\Hid</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDlg.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="TestModeDiffSpecDlg.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="TestOptionDlg.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="TsmTestThread.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TestOptionDlg_Tab0.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomUI\HeaderCtrlEx.h">
+      <Filter>헤더 파일\CustomUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomUI\ListCtrlEx.h">
+      <Filter>헤더 파일\CustomUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomUI\StatusBarView.h">
+      <Filter>헤더 파일\CustomUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomUI\CustomButton\BtnST.h">
+      <Filter>헤더 파일\CustomUI\CustomButton</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomUI\CustomButton\CeXDib.h">
+      <Filter>헤더 파일\CustomUI\CustomButton</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomUI\CustomButton\ShadeButtonST.h">
+      <Filter>헤더 파일\CustomUI\CustomButton</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomUI\ResizableDialog.h">
+      <Filter>헤더 파일\CustomUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TestOptionDlg_Tab1.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Hid\UsbHidList.h">
+      <Filter>헤더 파일\Hid</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectInfoDlg.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomUI\ColorListCtrl.h">
+      <Filter>헤더 파일\CustomUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomUI\LinePlot.h">
+      <Filter>헤더 파일\CustomUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomUI\memdc.h">
+      <Filter>헤더 파일\CustomUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ZDataAnalyzerDlg.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace\HTrace.h">
+      <Filter>헤더 파일\Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace\Macros.h">
+      <Filter>헤더 파일\Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="ASIC_ID_dlg.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="popup_noti.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollDlg.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollHelper.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomUI\RichEditEx.h">
+      <Filter>헤더 파일\CustomUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GpioButtonDlg.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomUI\XColorStatic.h">
+      <Filter>헤더 파일\CustomUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomUI\FontSize.h">
+      <Filter>헤더 파일\CustomUI</Filter>
+    </ClInclude>
+    <ClInclude Include="StartupPasswordDlg.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="TestOptionDlg_Tab2.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="UserNumberDlg.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="TestModeView_TestInfo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TestModeView_Test.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AfeMultiSettingDlg.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="AfeSettingDlg.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrentIdleOptionDlg.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="BarcodeSettingDlg.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomUI\Title.h">
+      <Filter>헤더 파일\CustomUI</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>헤더 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TouchButtonDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AfeNoiseSettingDlg.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomUI\DimTabCtrl.h">
+      <Filter>헤더 파일\CustomUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TestResultDescDlg.h">
+      <Filter>헤더 파일\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Docs Folder.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Document.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Documents.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Downloads Folder.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Get Info.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\TouchDebugger.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\background.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\background.jpg">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bg.jpg">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap_b.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap_f.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap_p.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap_r.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap_s.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00003.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00004.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00005.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00006.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00007.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00008.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\button close.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\button info.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\cancel.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\configure.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\delete.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icon_error.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icon_get.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icon_item.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icon_load.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icon_poi.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icon_save.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icon_set.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icon_upgrade.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icov_save_eeprom.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\painter.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\play.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\point.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\raw.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\test.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00009.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00010.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Button Refresh.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Button Fast Forward.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Button Delete.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\LedOn.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\buttonclose.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Transfere.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00011.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00012.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\detect_o.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00013.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00014.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00015.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00016.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00017.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00018.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00019.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00020.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmp00021.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmpTitle.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\LedOff.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmpFail.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmpPass.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\OK.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\CANCEL_gray.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\OK_gray.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bmpStandBy.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\TouchDebugger.manifest">
+      <Filter>리소스 파일</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TouchDebugger.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TouchDebugger.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Hand.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
